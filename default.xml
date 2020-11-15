@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="github"
-           fetch=".."
-           review="review.lineageos.org" />
+           fetch="https://github.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -20,6 +19,7 @@
 
   <!-- AOSP Projects -->
 
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" depth="1" />
   <project path="build/make" name="LineageOS/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
