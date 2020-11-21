@@ -60,6 +60,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="aosp" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" remote="aosp" />
+  <project path="device/google/marlin" name="openinternet-cc/android_device_google_marlin" groups="device,marlin,pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="external/ARMComputeLibrary" name="platform/external/ARMComputeLibrary" groups="pdk" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
