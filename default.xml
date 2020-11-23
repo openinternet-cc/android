@@ -18,6 +18,7 @@
            sync-j="4" />
 
   <!-- Open Internet packages -->
+  <project path="packages/apps/ManagedProvisioning" name="openinternet-cc/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="platform_testing" name="openinternet-cc/android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
   <project path="packages/apps/VPN" name="openinternet-cc/android_packages_apps_VPN" groups="pdk-fs" revision="master" />
   <project path="packages/apps/SpeedTest" name="openinternet-cc/android_packages_apps_SpeedTest" groups="pdk-fs" revision="master" />
@@ -488,7 +489,6 @@
   <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
