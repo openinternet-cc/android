@@ -18,6 +18,7 @@
            sync-j="4" />
 
   <!-- Open Internet packages -->
+  <project path="platform_testing" name="openinternet-cc/android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
   <project path="packages/apps/VPN" name="openinternet-cc/android_packages_apps_VPN" groups="pdk-fs" revision="master" />
   <project path="packages/apps/SpeedTest" name="openinternet-cc/android_packages_apps_SpeedTest" groups="pdk-fs" revision="master" />
   <project path="packages/apps/PermissionController" name="openinternet-cc/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
@@ -705,7 +706,6 @@
   -->
 
   <!-- Removed Lineage MISC
-  <project path="platform_testing" name="LineageOS/android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
   -->
 
   <include name="snippets/lineage.xml" />
