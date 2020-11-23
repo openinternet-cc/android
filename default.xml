@@ -23,14 +23,10 @@
   <project path="packages/apps/PermissionController" name="openinternet-cc/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/marlin" name="openinternet-cc/android_device_google_marlin" groups="device,marlin,pdk" />
   <project path="kernel/google/marlin" name="openinternet-cc/android_kernel_google_marlin" groups="device,marlin,pdk" />
-  <project path="build/make" name="openinternet-cc/android_build" groups="pdk" />
   <project path="frameworks/base" name="openinternet-cc/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="openinternet-cc/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="system/core" name="openinternet-cc/android_system_core" groups="pdk" />
-
-  <!-- AOSP Projects -->
-
-  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" depth="1" >
+  <project path="build/make" name="openinternet-cc/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -39,6 +35,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+
+  <!-- AOSP Projects -->
+
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" depth="1" />
 
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
