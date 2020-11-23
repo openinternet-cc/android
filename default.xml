@@ -671,6 +671,7 @@
   <project path="test/vti/fuzz_test_serving" name="platform/test/vti/fuzz_test_serving" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/vti/test_serving" name="platform/test/vti/test_serving" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" remote="aosp" />
 
   <!-- All Car Shit Dont Need
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="aosp" />
@@ -694,7 +695,6 @@
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" remote="aosp" />
   <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="aosp" />
-  <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/car/setupwizard" name="platform/frameworks/opt/car/setupwizard" groups="pdk" remote="aosp" />
   -->
 
