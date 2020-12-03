@@ -13,6 +13,7 @@
            revision="refs/tags/android-10.0.0_r41" />
 
   <default revision="refs/heads/lineage-17.1"
+           depth="1"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -27,10 +28,12 @@
   <!-- Google Marlin device -->
   <project path="device/google/marlin" name="openinternet-cc/android_device_google_marlin" groups="device,marlin,pdk" />
   <project path="kernel/google/marlin" name="openinternet-cc/android_kernel_google_marlin" groups="device,marlin,pdk" />
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" depth="1" />
 
   <!-- LeEco S2 device -->
   <project path="device/leeco/s2" name="openinternet-cc/android_device_leeco_s2" groups="device,leeco,pdk" />
   <project path="kernel/leeco/msm8976" name="openinternet-cc/android_kernel_leeco_msm8976" groups="device,leeco,pdk" />
+  <project path="vendor/leeco" name="openinternet-cc/proprietary_vendor_leeco" depth="1" />
 
   <project path="frameworks/base" name="openinternet-cc/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="openinternet-cc/android_packages_apps_Settings" groups="pdk-fs" />
@@ -47,8 +50,6 @@
 
   <!-- AOSP Projects -->
 
-  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" depth="1" />
-  <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" depth="1" />
 
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
