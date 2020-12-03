@@ -23,8 +23,15 @@
   <project path="packages/apps/VPN" name="openinternet-cc/android_packages_apps_VPN" groups="pdk-fs" revision="master" />
   <project path="packages/apps/SpeedTest" name="openinternet-cc/android_packages_apps_SpeedTest" groups="pdk-fs" revision="master" />
   <project path="packages/apps/PermissionController" name="openinternet-cc/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
+
+  <!-- Google Marlin device -->
   <project path="device/google/marlin" name="openinternet-cc/android_device_google_marlin" groups="device,marlin,pdk" />
   <project path="kernel/google/marlin" name="openinternet-cc/android_kernel_google_marlin" groups="device,marlin,pdk" />
+
+  <!-- LeEco S2 device -->
+  <project path="device/leeco/s2" name="openinternet-cc/android_device_leeco_s2" groups="device,leeco,pdk" />
+  <project path="kernel/leeco/msm8976" name="openinternet-cc/android_kernel_leeco_msm8976" groups="device,leeco,pdk" />
+
   <project path="frameworks/base" name="openinternet-cc/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="openinternet-cc/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="system/core" name="openinternet-cc/android_system_core" groups="pdk" />
@@ -41,6 +48,7 @@
   <!-- AOSP Projects -->
 
   <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" depth="1" />
+  <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" depth="1" />
 
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
