@@ -26,6 +26,7 @@
   <!-- project path="packages/apps/Lawnchair" name="openinternet-cc/android_packages_apps_Lawnchair" groups="pdk-fs" revision="master" /-->
   <project path="packages/apps/SpeedTest" name="openinternet-cc/android_packages_apps_SpeedTest" groups="pdk-fs" revision="master" />
   <project path="packages/apps/PermissionController" name="openinternet-cc/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
+  <project path="vendor/lawnchair" name="openinternet-cc/android_vendor_lawnchair" depth="1" />
 
   <!-- Google Marlin device -->
   <project path="device/google/marlin" name="openinternet-cc/android_device_google_marlin" groups="device,marlin,pdk" />
