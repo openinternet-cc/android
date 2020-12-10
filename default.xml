@@ -27,7 +27,8 @@
   <project path="packages/apps/PermissionController" name="openinternet-cc/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
 
   <!-- testing this -->
-  <project path="packages/apps/Lawnchair" name="openinternet-cc/android_packages_apps_Lawnchair" groups="pdk-fs" revision="master" />
+  <!--project path="system/priv-app/Lawnchair" name="openinternet-cc/android_packages_apps_Lawnchair" groups="pdk-fs" revision="master" /-->
+
 
   <!-- Google Marlin device -->
   <project path="device/google/marlin" name="openinternet-cc/android_device_google_marlin" groups="device,marlin,pdk" />
