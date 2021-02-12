@@ -23,13 +23,14 @@
   <project path="platform_testing" name="openinternet-cc/android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
   <project path="packages/apps/VPN" name="openinternet-cc/android_packages_apps_VPN" groups="pdk-fs" revision="master" />
   <project path="packages/apps/Forcastie" name="openinternet-cc/android_packages_apps_Forcastie" groups="pdk-fs" revision="master" />
-  <project path="packages/apps/SpeedTest" name="openinternet-cc/android_packages_apps_SpeedTest" groups="pdk-fs" revision="master" />
   <project path="packages/apps/PermissionController" name="openinternet-cc/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="openinternet-cc/android_frameworks_opt_net_wifi" groups="pdk" />
 
   <!-- testing this -->
   <!--project path="system/priv-app/Lawnchair" name="openinternet-cc/android_packages_apps_Lawnchair" groups="pdk-fs" revision="master" /-->
 
+  
+  <!--stupid: project path="packages/apps/SpeedTest" name="openinternet-cc/android_packages_apps_SpeedTest" groups="pdk-fs" revision="master" /-->
 
   <!-- Google Marlin device -->
   <project path="device/google/marlin" name="openinternet-cc/android_device_google_marlin" groups="device,marlin,pdk" />
@@ -713,13 +714,10 @@
   -->
 
   <!-- Removed Apps -->
-  <!--
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" /> 
   <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" /> 
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
-
-  -->
 
   <!-- Real G's Test in Prod
   -->
