@@ -23,7 +23,7 @@
   <project path="platform_testing" name="openinternet-cc/android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
   <project path="packages/apps/VPN" name="openinternet-cc/android_packages_apps_VPN" groups="pdk-fs" revision="master" />
   <project path="packages/apps/Forcastie" name="openinternet-cc/android_packages_apps_Forcastie" groups="pdk-fs" revision="master" />
-  <project path="packages/apps/F-droid" name="f-droid/fdroidclient" groups="pdk-fs" revision="master" />
+  <project path="packages/apps/F-droid" name="openinternet-cc/android_packages_apps_F-droid" groups="pdk-fs" revision="master" />
   <project path="packages/apps/PermissionController" name="openinternet-cc/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="openinternet-cc/android_frameworks_opt_net_wifi" groups="pdk" />
 
