@@ -31,15 +31,15 @@ repo sync
 
 ### 4) Get the party started
 
-> NOTE: Currently OpenInternet is designed for Google Pixel XL (Marlin). What device are you building for? You may have some troubles building for others. To start, make sure you get the correct [propreitary blobs](https://gist.github.com/gWOLF3/30c2339442cc9b58e68aa2a1d373238e) before proceeding.
+> NOTE: Currently OpenInternet is designed for Le Eco S2 (S2). What device are you building for? You may have some troubles building for others. To start, make sure you get the correct [propreitary blobs](https://gist.github.com/gWOLF3/30c2339442cc9b58e68aa2a1d373238e) before proceeding.
 
 > For help understanding the Android Build System: see [this guide](https://elinux.org/Android_Build_System)
 
 #### Building for Device:
 ```
 source build/envsetup.sh
-breakfast marlin
-brunch marlin
+breakfast s2
+brunch s2
 ```
 
 #### Building for Emulator:
@@ -63,6 +63,3 @@ export CCACHE_EXEC=/usr/bin/ccache
 ccache -M 50G
 ```
 
-## Getting it Running
-
-TBD
