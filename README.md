@@ -1,5 +1,7 @@
 # Android Root
 
+This guide is for building DatOS for your own device. If you would like to use DatOS without building it yourself, try one of our precompiled builds. Otherwise, you may purchase devices preinstalled with DatOS from the [Open Internet store](https://openinternet.cc). This also helps to support future development efforts. 
+
 > Upstream see Lineage OS 17.1 
 
 ## Setup
@@ -31,7 +33,11 @@ repo sync
 
 ### 4) Get the party started
 
-> NOTE: Currently OpenInternet is designed for Le Eco S2 (S2). What device are you building for? You may have some troubles building for others. To start, make sure you get the correct [propreitary blobs](https://gist.github.com/gWOLF3/30c2339442cc9b58e68aa2a1d373238e) before proceeding.
+DatOS is supported on: 
+
+- Le Eco S2 (S2). 
+
+> What device are you building for? You may have some troubles building for others. To start, make sure you get the correct [propreitary blobs](https://gist.github.com/gWOLF3/30c2339442cc9b58e68aa2a1d373238e) before proceeding.
 
 > For help understanding the Android Build System: see [this guide](https://elinux.org/Android_Build_System)
 
