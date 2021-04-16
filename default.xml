@@ -19,6 +19,7 @@
            sync-j="4" />
 
   <!-- Open Internet packages -->
+  <project path="frameworks/opt/telephony" name="openinternet-cc/android_frameworks_opt_telephony" groups="pdk" />
   <project path="packages/apps/ManagedProvisioning" name="openinternet-cc/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="platform_testing" name="openinternet-cc/android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
   <project path="packages/apps/VPN" name="openinternet-cc/android_packages_apps_VPN" groups="pdk-fs" revision="master" />
@@ -434,7 +435,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
